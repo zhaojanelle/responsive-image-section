@@ -5,7 +5,7 @@
 
 ---
 
-**Quick project summary shown here.**
+**Create a responsive section that has an image on it's left half.**
 
 - *Fork this repository.*
 - Create the responsive layout shown in the included screenshots.
