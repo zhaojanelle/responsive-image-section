@@ -1,0 +1,56 @@
+inherit: responsive-website
+
+repo: 'responsive-image-section'
+canvasCourse: ''
+canvasAssignment: ''
+
+html:
+  - path: 'index.html'
+    has:
+      - 'section'
+      - 'section div'
+      - 'section h1'
+      - 'section img'
+      - 'section a'
+      - 'img[src*="placeholder-4by3.svg"]'
+    search:
+      - 'Intense Mint Dark Chocolate'
+      - 'This super intense mint-flavoured 85% dark chocolate'
+      - 'Buy now'
+
+css:
+  - path: 'css/main.css'
+    has:
+      - ['body', 'margin', '0']
+      - ['.img-flex', 'display', 'block']
+      - ['.img-flex', 'width', '100%']
+      - ['a', 'background-color', '#555']
+      - ['a', 'border-radius', '4px']
+    search:
+      - 'display: inline-block'
+      - 'margin'
+      - 'padding'
+      - 'max-width'
+      - 'width'
+      - 'vertical-align: middle'
+      - 'background-color: #e2e2e2'
+      - 'text-align: center'
+      - 'text-align: left'
+    search_not:
+      - ['float: (left|right)', 'This layout cannot be properly created when using `float`']
+
+screenshots:
+  - path: 'index.html'
+    sizes: [320, 400, 608, 960, 1440]
+
+functionality:
+  - path: 'index.html'
+    tests:
+      - |
+        let link = $('a');
+        let oldBg = css(link).backgroundColor;
+
+        hover('a', function () {
+          if (css(link).backgroundColor == oldBg) fail('The background colour of the link doesn’t change when hovered')
+          pass();
+        });
