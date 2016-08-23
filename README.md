@@ -1,11 +1,13 @@
-# Responsive image section
-
-- Approx. completion time: **2 hours**
-- Deliverables: **1 HTML file, 1 CSS file, images**
+---
+summary: 'Create a responsive section that has an image on it's left half.'
+time: '2 hours'
+deliverables: '1 HTML file, 1 CSS file, images'
 
 ---
 
-**Create a responsive section that has an image on it's left half.**
+# Responsive image section
+
+## Overview
 
 - *Fork this repository.*
 - Create the responsive layout shown in the included screenshots.
@@ -33,7 +35,7 @@
 
 Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
-- [Final screenshots in the “screenshots” folder.](screenshots)
+- Final screenshots in the “screenshots” folder.
 - [**Watch this video to see how it interacts.**](https://youtu.be/)
 
 ---
