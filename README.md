@@ -2,7 +2,6 @@
 summary: 'Create a responsive section that has an image on it's left half.'
 time: '2 hours'
 deliverables: '1 HTML file, 1 CSS file, images'
-
 ---
 
 # Responsive image section
