@@ -1,8 +1,7 @@
 inherit: responsive-website
 
 repo: 'responsive-image-section'
-canvasCourse: '501958'
-canvasAssignment: '5002465'
+canvasCourse: 'web-dev-3'
 
 html:
   - path: 'index.html'
