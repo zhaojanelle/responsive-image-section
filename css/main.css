@@ -88,9 +88,9 @@ a:hover {
   }
 
   section {
-    padding-top: 2rem;
-    text-align: center;
+    padding-top: 1rem;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -98,6 +98,11 @@ a:hover {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  section {
+    padding-top: 2rem;
+    text-align: center;
   }
 
 }
