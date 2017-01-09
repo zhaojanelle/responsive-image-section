@@ -48,6 +48,10 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  background: #000;
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -84,7 +88,7 @@ a {
   }
 
   section {
-    padding-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
   }
 }
